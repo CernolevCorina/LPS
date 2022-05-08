@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1651938270 source:d:\univer\labratoarelps\proiect4cernolevcorina\main.cpp
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<iomanip>
+	<cstdlib>
+	<stdio.h>
+	<string.h>
+

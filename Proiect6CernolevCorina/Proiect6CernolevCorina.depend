@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1651767069 source:d:\proiect6cernolevcorina\main.cpp
+	<iostream>
+	<cstdlib>
+	<conio.h>
+
+1651770464 source:d:\proiect6cernolevcorina\actualizare.cpp
+	<iostream>
+	<cstdlib>
+	<conio.h>
+	<stdio.h>
+	<string.h>
+	"czodiac.h"
+
+1651770513 d:\proiect6cernolevcorina\czodiac.h
+
+1651752337 source:d:\proiect6cernolevcorina\documente.cpp
+
