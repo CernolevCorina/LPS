@@ -16,3 +16,37 @@
 
 1651752337 source:d:\proiect6cernolevcorina\documente.cpp
 
+1653306367 source:d:\univer\labratoarelps\lps\proiect6cernolevcorina\documente.cpp
+	<bits/stdc++.h>
+	"czodiac.h"
+
+1653305767 source:d:\univer\labratoarelps\lps\proiect6cernolevcorina\main.cpp
+	<iostream>
+	<string.h>
+	<conio.h>
+	<cstdlib>
+	<stdlib.h>
+	<iomanip>
+	<stdio.h>
+	"service.cpp"
+
+1653305642 source:d:\univer\labratoarelps\lps\proiect6cernolevcorina\actualizare.cpp
+	<bits/stdc++.h>
+	"czodiac.h"
+
+1653165730 d:\univer\labratoarelps\lps\proiect6cernolevcorina\czodiac.h
+
+1653294618 d:\univer\labratoarelps\lps\proiect6cernolevcorina\actualizare.cpp
+	<bits/stdc++.h>
+	"czodiac.h"
+	"documente.cpp"
+
+1653294669 d:\univer\labratoarelps\lps\proiect6cernolevcorina\documente.cpp
+	<bits/stdc++.h>
+	"czodiac.h"
+	"actualizare.cpp"
+
+1653299507 d:\univer\labratoarelps\lps\proiect6cernolevcorina\service.cpp
+	<bits/stdc++.h>
+	"czodiac.h"
+

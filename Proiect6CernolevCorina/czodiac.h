@@ -1,5 +1,5 @@
-#ifndef VSPORTIV_H_INCLUDED
-#define VSPORTIV_H_INCLUDED
+#ifndef CZODIAC_H_INCLUDED
+#define CZODIAC_H_INCLUDED
 struct Data
 {
     int zi;
@@ -14,7 +14,7 @@ struct Persoana
     char zodia[21];
     char piatra[20];
     int numereNorocoase[3];
-    int numarDestin[21];
+    int numarDestin;
 };
 
-#endif // VSPORTIV_H_INCLUDED
+#endif // CZODIAC_H_INCLUDED

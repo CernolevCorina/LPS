@@ -1,5 +1,4 @@
-#include <iostream>
-#include <math.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -79,23 +78,29 @@ int main()
 
     cout << "\tLimita superioara: ";
     cin >> lsus;
-    cout << "\tNumerele prime din intervalul dat sunt: ";
+     cout << "\tNumerele prime din intervalul [" << ljos << ";" << lsus << "] sunt: \n";
+    int nr=0;
     for (int i = ljos; i <= lsus; i++)
     {
         if (isPrime(i))
         {
-            cout << i << " ";
+            cout << setw(9) << i;
+            nr++;
         }
     }
+    cout << "\nIn total " << nr << " numere prime\n";
 
-    cout << "\n3.\tNumerele prime inverse din intervalul dat sunt: ";
+    cout << "\tNumerele prime inverse din intervalul [" << ljos << ";" << lsus << "] sunt: \n";
+    nr = 0;
     for (long i = ljos; i <= lsus; i++)
     {
         if (isPrime(i) && isPrime(Invers(i)))
         {
-            cout << i << " ";
+            cout << setw(9) << i;
+            nr++;
         }
     }
+    cout << "\nIn total " << nr << " numere prime inverse\n";
 
     // Primele n numere prime
     do
@@ -104,16 +109,17 @@ int main()
         cin >> n;
     } while (n < 1);
     int k = 2;
-    cout << "\tPrimele " << n << " numere prime sunt: ";
+    cout << "\tPrimele " << n << " numere prime sunt: \n";
     while (n > 0)
     {
         if (isPrime(k))
         {
-            cout << k << " ";
+            cout << setw(9) << k;
             n--;
         }
         k++;
     }
+    cout << "\nAcestea sunt primele numere prime\n";
 
     // Cel mai mare numar prim
     long i = 2147483647;
